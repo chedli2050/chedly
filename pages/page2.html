@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page 2</title>
+        <meta charset="htf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" 
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="shortcut icon" href="../photos/bayasoftb100.png"/>
+
+    </head>
+ 
+    <body class="page2body">
+
+        <!-- Barre de navigation -->
+        <nav>
+            <DIv class="menu">
+                <ul>
+                  <li class="p0"> <a href="../main.html"> Sommaire </a> </li>
+                   <li class="p1"><a href="page1.html"> Photos Paris </a></li>
+                   <li class="p2"><a href="page2.html"> Page 2 </a></li>
+                   <li class="p3"><a href="page3.html"> Page 3 </a></li>
+                   <li class="p4"><a href="page4.html"> Page 4 </a></li>
+               </ul>
+           </DIv>
+    </nav>
+
+    <div class="sousmenu">
+        
+            <div class="menumob">
+                <p class="titremobile"><i class="fa-solid fa-bars"></i> MENU</p>
+                 <br><br>  <br>             
+                <a href="../main.html" id="amm1">Sommaire</a>
+                <a href="page1.html" id="amm2">Photos Paris</a>
+                <a href="page2.html" id="amm3">Page 2</a>
+                <a href="page3.html" id="amm4">Page 3</a>
+                <a href="page4.html" id="amm5">Page 4</a>
+            </div>    
+    </div>
+
+    <a href="../main.html" id = "logodesjardins" ></a>
+
+
+
+<!-- Fin Barre de navigation -->
+
+        <h2 class="h2page2">Page 2</h2>
+              
+        <p> <br></p>
+
+
+        <form class="formulaire" method="post" action="essai.php">
+           
+           <fieldset class="section1">
+            <legend>Informations Personelles</legend>
+                <label for="prenom" aria-autocomplete="list">Prénom : </label>
+                <input type="text" id="prenom" placeholder="Ex: Mohamed" required> <br>
+
+                <label for="nom">Nom : </label>
+                <input type="text" id="nom" autofocus="autofocus"placeholder="Ex: Ben Sassi"> <br><br>
+
+                <label for="emailu">Votre Email : </label>
+                <input type="email" id="emailu"><br>
+
+                <label for="tel">Votre Numéro de téléphone : </label>
+                <input type="number" id="tel"><br>
+            
+                <label for="site">Votre site Web :</label>
+                <input type="url" id="site"><br>
+                        
+                <label for="daten">Date de Naissance</label>
+                <input type="date" id="daten"> <br>
+                
+                <label for="chiffre">Choisissez un chifre entre 1 et 1000</label>
+                <input type="number" id="chiffre" min="1" max="1000" placeholder="Ex:100">
+
+                <p>Votre sexe : <br></p>
+                <input type="radio" name="lesexe" id="homme" value="homme" checked>
+                <label for="homme">HOMME</label><br>
+                <input type="radio" name="lesexe" id="femme" value="femme">
+                <label for="femme">FEMME</label><br><br>
+                
+                <label for="psw">Mot de passe :</label><br>
+                <input type="password" id="psw"> <br>
+
+            </fieldset>
+            
+            <fieldset class="section2">
+            <legend>Autres</legend>
+                <p>intérets :</p> 
+                <input type="checkbox" name="intert" id="html" value="html" checked>
+                <label for="html">HTML</label><br>
+                <input type="checkbox" name="intert" id="css" value="CSS"checked>
+                <label for="css">CSS</label><br>
+                <input type="checkbox" name="intert" id="JS" value="JS">
+                <label for="js">JS</label><br><br>
+            
+                <label for="pays">Choix du pays</label>
+                <select name="pays" id="pays">
+                <optgroup label="Afrique">
+                    <option value="Egypt">Egypt</option>
+                    <option value="Tunisie" selected>Tunisie</option>
+                    <option value="Maroc">Maroc</option>
+                    <option value="Algerie">Algérie</option>
+                    <option value="Togo">Togo</option>
+                    <option value="Niger">Niger</option>
+                </optgroup>
+                <optgroup label="Europe"></optgroup>
+                <option value="France">France</option>
+                <option value="Espagne">Espage</option>
+                <option value="Italie">Italie</option>
+                </select>
+                <br>
+                <br>        
+                <label for="comment">Commentaire : </label> <br>
+                <textarea id="comment" name="commentaire" cols="38" rows="5"> </textarea><br>
+            </fieldset>
+            
+            <input type="submit" value="Valider">
+        </form>
+        <br><br> <br><br>
+        
+    </body>
+</html>
