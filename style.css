@@ -1,0 +1,1237 @@
+body {margin: 0px; padding: Opx;}
+a {text-decoration: none;}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+/** Style Barre de navigation **/
+ 
+    nav{width: 100%; background-color: rgb(128, 128, 128);
+    position: fixed;top: 0px;left: Opx;z-index: 1000000;}
+
+    nav ul {margin: 0px;padding: 0px;overflow: hidden;}
+    nav li {list-style-type: none;
+            float: left;}
+
+    nav a{display: inline-block; text-decoration: none;padding: 20px 30px; color: white;}
+    .p0:hover {border-top: 5px solid rgb(132, 0, 9);background-color: rgba(132, 0, 9, 0.246);}
+    .p1:hover {border-top: 5px solid rgb(58, 10, 216);background-color: rgba(52, 28, 232, 0.223);}
+    .p2:hover {border-top: 5px solid rgb(9, 236, 20);background-color: rgba(9, 236, 20, 0.241);}
+    .p3:hover {border-top: 5px solid rgb(222, 5, 182);background-color:rgba(222, 5, 182, 0.241) ;}
+    .p4:hover {border-top: 5px solid rgb(21, 20, 20);background-color: rgba(21, 20, 20, 0.243);}
+
+    nav li:hover a {padding: 15px 30px 20px 30px;}
+
+    .menu {display: table; margin: 0px auto;}
+    #logodesjardins {width: 140px;height: 50px; background-image: url(photos/logoldjblanc140px.png);
+        background-repeat:no-repeat;position: fixed;top:10px;left: 20px;z-index: 10000002;}
+    #logodesjardins:hover {background-image: url(photos/logoldj140px.png);overflow: hidden;}
+
+    .sousmenu{position: relative;width: 100px;height: 58px;
+        background-color: aqua;top: 0px;left: 0px;
+        }
+        
+        /*Menu Mobile*/    
+    
+        .titremobile{color: white;margin: 0;padding: 0;}
+        .menumob {display: none;}
+
+        /*Fin Menu Mobile*/
+
+ /** Fin style barre de navigation **/
+ 
+
+
+
+ /** page d'acceuil **/
+    
+        .bodymain {background-color: rgba(0, 0, 0, 0.084);}
+        
+        .titreacceuil{background-color: rgba(0, 0, 0, 0.162);font-size: 16pt;margin-top: 0px;text-align: center;
+                   padding: 5px;
+                   }
+
+    .premierepartie {width: 100%;padding: 1%;margin-top: 0px;border-bottom: 1px solid gray;}           
+        .page1boxphoto1 {width: 28%;height: auto;overflow: hidden;padding: 0%;padding-bottom: 0%;
+                         display: inline-block;margin-left: 5%;margin-right: 1%;
+                        }
+                    .photoa1{width: 100%;object-fit: cover;margin: 0%;padding: 0%;
+                    transition: 3s; transition-property: 4s;
+                        }
+                    .photoa1:hover{transform: scale(1.1);}
+                    .page1boxphoto1:hover{box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.653);}
+    
+        .page1boxphoto2 {width: 28%;height: auto;overflow: hidden;padding: 0%;
+                         display: inline-block;margin-left: 1%;margin-right: 1%;
+                        }
+                    .photoa2{width: 100%;object-fit: cover;margin: 0%;padding: 0%;
+                     transition: 3s;
+                        }
+                    .photoa2:hover{transform: scale(1.6);} 
+                    .page1boxphoto2:hover{box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.653);}
+                    
+        .page1boxphoto3 {width: 28%;height: auto;overflow: hidden;padding: 0%;
+                        display: inline-block;margin-left: 1%;
+                       }
+                   .photoa3{width: 100%;object-fit: cover;margin: 0%;padding: 0%;
+                    transition: 3s;
+                       }
+                   .photoa3:hover{transform: scale(1.1);}   
+                   .page1boxphoto3:hover{box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.653);}  
+                   
+    .deuxiemepartie {width: 100%;padding: 1%;}           
+        .page1boxphoto4 {width: 28%;height: auto;overflow: hidden;padding: 0%;padding-bottom: 0%;
+                                    display: inline-block;margin-left: 5%;margin-right: 1%;
+                                   }
+                        .photoa4{width: 100%;object-fit: cover;margin: 0%;padding: 0%;
+                               transition: 3s; transition-property: 4s;
+                                   }
+                       .photoa4:hover{transform: scale(1.3);}
+                       .page1boxphoto4:hover{box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.653);}
+               
+        .page1boxphoto5 {width: 28%;height: auto;overflow: hidden;padding: 0%;
+                                    display: inline-block;margin-left: 1%;margin-right: 1%;
+                                   }
+                        .photoa5{width: 100%;object-fit: cover;margin: 0%;padding: 0%;
+                                transition: 3s;
+                                   }
+                        .photoa5:hover{transform: scale(1.1);} 
+                        .page1boxphoto5:hover{box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.653);}
+                               
+        .page1boxphoto6 {width: 28%;height: auto;overflow: hidden;padding: 0%;
+                                   display: inline-block;margin-left: 1%;
+                                  }
+                        .photoa6{width: 100%;object-fit: cover;margin: 0%;padding: 0%;
+                               transition: 3s;
+                                  }
+                        .photoa6:hover{transform: scale(1.1);}   
+                        .page1boxphoto6:hover{box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.653);}                
+
+
+ /** fin page d'acceuil **/
+ 
+ 
+
+
+ /** page 1 Photos Paris **/
+    
+        .titrephotos {background-color: rgba(0, 0, 0, 0.162);font-size: 16pt;margin-top: 0px;text-align: center;
+                     padding: 5px;
+                     }
+
+        .box1{width: 90%;height: 390px;border: 1px solid rgba(0, 0, 0, 0.122);margin: 2% auto; overflow: hidden;}
+        
+        #pho1 {width: 30%; height: 300px; background-image: url(../site2/photos/photo1.jpg);background-size: cover ;position: relative;
+              top: 20px;display: inline-block;margin: 1.5%;}
+        #pho2 {width: 30%; height: 300px; background-image: url(../site2/photos/photo2.jpg);background-size: cover ;position: relative;
+              top: 20px;display: inline-block;margin: 1.5% ;}
+        #pho3 {width: 30%; height: 300px; background-image: url(../site2/photos/photo3.jpg);background-size: cover ;position: relative;
+              top: 20px;display: inline-block;margin: 1.5% ;}
+        #pho1:hover, #pho2:hover, #pho3:hover {box-shadow: 2px 2px 8px black;}
+
+    /** Animation **/
+            
+        .logoglobal{position: absolute;left: 36%;top: 550px;width: 29%;}
+        .logobaya {display: inline-block;position: relative;top: 0px;left: 0%;
+            animation-name: testanime2;
+            animation-duration: 0.9s;
+            animation-timing-function: linear;
+            animation-iteration-count: initial;
+            animation-direction: alternate;
+              
+                }
+        
+            @keyframes testanime2
+            {
+                0%  {transform:scale(0.0);}
+                50% {transform:scale(0.5);}
+                90% {transform:scale(1.1)}
+                100% {transform:scale(1.0);}
+            }
+        
+        
+        .logobayatexte {display: inline-block;position: relative;top: 0px;left: 0%;
+            animation-name: testanime3;
+            animation-duration: 0.6s;
+            animation-timing-function: linear;
+            animation-iteration-count: initial;
+            animation-direction: alternate;
+                      }
+            @keyframes testanime3{
+                    0%  {opacity: 0%;}
+                    90% {opacity: 60%;}
+                    100% {opacity: 100%;}
+                        }
+            @keyframes testanime3{
+                    0%  {left: -100px;}
+                    90% {left: 20px;}
+                    100% {left: 0px;}
+                                }
+        
+          
+       
+    
+    /** fIN Animation **/
+    
+    
+    /** Grandes photos**/
+    #grande1 {width: 90%;margin: 0px 5%;}
+    #grande2 {width: 90%;margin: 0px 5%;}
+    #grande3 {width: 90%;margin: 0px 5%;}
+
+    #retour1 {font-size: 18pt;color: rgb(240, 240, 240);position: fixed;
+            top: 30px; left: 10px; background-color: rgb(171, 171, 171);text-align: center;
+            border-style: solid; border-radius: 30in;width: 150px; padding-top: Opx; box-shadow: 0px 0px 2px gray;
+            transition: background-color 5s,width 10s ;}
+
+#retour1:hover {background-color: lightskyblue ;color: rgb(255, 255, 255);box-shadow: 1px 1px 4px black;
+                width: 250px;}
+
+    /** Fin Grandes photos **/
+    
+    
+    /** Fin page 1 Photos Paris **/
+
+
+    /** Page 2  **/
+
+    .h2page2{position: fixed;display: inline-block;top: 0px;left: 90%;z-index: 102002200;color: white;}
+    .page2body{background-color: rgb(190, 189, 189);}
+    .formulaire {width: 65%;margin-left: 17.5%;font-size: 16pt;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+    .section1{background-color: rgba(140, 215, 238, 0.521);
+              padding: 10px;
+              margin: 20px 0px;
+             }
+    .section2{background-color: rgba(140, 215, 238, 0.521);
+              padding: 10px;
+              margin: 20px 0px;
+             }
+    .section1:hover, .section2:hover {box-shadow: 1px 1px 5px #444;}
+    legend{font-weight: bold;text-transform: uppercase;font-size: 18pt;color: #444;}
+    input{width: 300px;height: 20px;font-size: 12pt;}
+    #pays{width: 300px;height: 20px;}
+    #homme,#femme {width: 100px;height: 20px;}
+    #html, #css, #JS {width: 100px;height: 20px;}
+    label{display: inline-block; width: 200px;font-size: 12pt;margin-top: 10px;}
+    input[type="submit"]{display: inline-block ;font-size: 14pt;font-weight: bold;padding: 10px;margin-left: 30%;
+        width: 40%;height: 50px;border-radius: 10px;}
+    input[type="submit"]:hover {box-shadow: 1px 1px 5px gray;}   
+    
+    
+
+    /** Fin Page 2  **/
+
+    /** Page 3 Desert **/
+
+        #desert{width: 100%;margin-top: -70px;margin-left: 0px;}
+        #menudesert{display: inline-block;position: absolute;
+            width: 80%;height: 80px;top: 0px;left: 10%;color: white;font-family: Helvetica, sans-serif;
+            border-bottom: 1px solid white;overflow: hidden;padding: 0px;
+        }
+        #menudesert a {text-decoration: none; color: white;font-size: 14pt;text-align: center;margin: 0;}
+        #premier1, #premier2, #premier3, #premier4, #premier5 {
+            display: inline-block;width: 19.4%;padding-top: 30px;
+            height: 48px;font-family: 'Raleway', sans-serif;margin-left: 0.4%;margin-right: 0.3%;
+            }
+        #menudesert:hover{background-color: rgba(255, 255, 255, 0.054);
+                          box-shadow: 0px 0px 4px rgba(128, 128, 128, 0.346);
+                        }
+        #premier1:hover,#premier2:hover,#premier3:hover,#premier4:hover,#premier5:hover{
+            font-weight: bolder;border-bottom: 40px solid rgb(0, 0, 255);
+             background-color: rgba(255, 255, 255, 0.141);
+                        }
+        .titredesert {position: absolute;top: 70px;right: 10%;
+                      display: inline-block;color: white;font-family: Arial, Helvetica, sans-serif;
+                      font-size: 90%;font-weight: lighter;
+        }
+        #motdesert{font-weight: bold;}
+
+        .icondesert{position: absolute;top: 20px;left: 5%;color: white;font-size: 24pt;margin: 0;
+            animation-name: desertanim;
+            animation-duration: 5s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            animation-direction: normal;}
+   
+            @keyframes desertanim{
+            0%  {transform:rotate(0deg);}
+            100% {transform:rotate(360deg);}
+            }
+
+        .boxdesert{display: inline-block;
+                   background-color: rgba(255, 255, 255, 0.214);
+                   position: absolute;top: 120px;left:5%;border-radius: 20px;
+                   width: 25%;
+                  }    
+        .boxdesert:hover{box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.228);background-color: rgba(255, 255, 255, 0.414);}
+                
+        .titre1desert{color: rgba(32, 32, 32, 0.845);font-size: 16pt;font-style: oblique;margin-left: 2%;}
+        .paradesert{color: rgba(0, 0, 0, 0.801);text-align: justify;padding: 2%;}
+
+        
+
+       .foot{width: 100%;height: 170px;background-color: rgb(234, 227, 227);margin: 0%;padding: 0%;
+            margin-top: -22px;z-index: 100022099;
+            box-shadow: 0px -5px 15px rgba(128, 128, 128, 0.739);
+            }
+            .boxcontact{width: 90%;height: 100px;position: relative;left: 4.7%;top: 5%;border-bottom: 1.2px solid gray;}
+                .suiveznous{color: gray;font-size: 16pt;position: relative;left: 20px;top: 10px
+                           }
+                
+                .reseausociaux{width: 300px;overflow: hidden;}
+                
+                .fb3{display: inline;font-size: 28pt;margin-left: 20px;margin-top: 10px;
+                     
+                    }
+                .insta3{display: inline;font-size: 28pt;margin-left: 20px;margin-top: 10px;
+                         
+                       }
+                .youtube3{display: inline;font-size: 28pt;margin-left: 20px;margin-top: 10px;
+                          
+                         }
+                .linked3{display: inline;font-size: 28pt;margin-left: 20px;margin-top: 10px;
+                        
+                        }    
+                .twitter3{display: inline;font-size: 28pt;margin-left: 20px;margin-top: 10px;
+                        
+                        } 
+                .reseausociaux a {text-decoration: none; color: black;}        
+
+    /** Fin de la Page 3 Desert **/
+
+
+    /** La Page 4 **/
+
+         .photofadein1
+                {   background-image: url(./photos/photo18.jpg);background-size: cover;background-position: center;
+                    height: 100vh;width: 100vw ;object-fit: cover;object-position: center;position: fixed;
+                    top: 0px;left: 0px;z-index: 0;
+                    transition: 0.5s;opacity: 1;
+
+                }    
+        .photofadein1.fadep4 {opacity: 0;}
+
+        .photofadein2
+        {   background-image: url(./photos/photo19.jpg);background-size: cover;background-position: center;
+            height: 100vh;width: 100vw ;object-fit: cover;object-position: center;position: fixed;
+            top: 0px;left: 0px;z-index: 0;
+            transition: 0.5s;opacity: 1;
+
+        }    
+        .photofadein2.fadep4 {opacity: 0;}
+
+
+        .photofadein3
+        {   background-image: url(./photos/Photo20.jpg);background-size: cover;background-position: center;
+            height: 100vh;width: 100vw ;object-fit: cover;object-position: center;position: fixed;
+            top: 0px;left: 0px;z-index: 0;
+            transition: 0.5s;opacity: 1;
+
+        }    
+        .photofadein3.fadep4 {opacity: 0;}
+
+        .photofadein4
+        {   background-image: url(./photos/Photo21.jpg);background-size: cover;background-position: center;
+            height: 100vh;width: 100vw ;object-fit: cover;object-position: center;position: fixed;
+            top: 0px;left: 0px;z-index: 0;
+            transition: 0.5s;opacity: 1;
+
+        }    
+        .photofadein4.fadep4 {opacity: 0;}
+        
+   
+
+            /**Menu page4 **/
+
+            .sousmenup4 {position: fixed;width: 100%;height: 58px;z-index: 10000;
+                background-color: rgb(50, 50, 50);top: 0px;left: 0px;}
+            .titremobile{color: white;margin: 0;padding: 0; font-weight: bolder;font-family: Arial;
+                         font-size: 16pt ;position: relative;top: 20px;left: 20px;user-select: none;
+                        }
+            .titreacceuil{background-color: rgba(0, 0, 0, 0.162);font-size: 16pt;margin-top: 58px;text-align: center;
+                            padding: 5px;
+                            }       
+                            
+            .titrephotos {background-color: rgba(0, 0, 0, 0.162);font-size: 16pt;margin-top: 58px;text-align: center;
+                          padding: 5px;
+                         }  
+    
+            .menumob{display: inline-block;background-color: black;width: 150px;height: 58px;
+                 position: fixed;z-index: 9999;overflow: hidden;box-shadow: 0px 0px 0px gray;
+                 transition: height 0.1s, width 0.1s ,box-shadow 0.1s;user-select: none;
+                }
+            .menumob:hover{height: 380px;width: 300px;box-shadow: 1px 1px 12px black;}          
+            #amm1, #amm2, #amm3, #amm4, #amm5 {
+                display:block;text-decoration: none;color: white;font-size: 16pt;
+                height: 15%;font-family: Geneva, Tahoma, sans-serif;position: relative;
+                top: 0px;left: 20px;
+            }
+    
+            #amm1:hover, #amm2:hover, #amm3:hover, #amm4:hover, #amm5:hover {text-shadow: 0px 0px 10px white;color: rgb(202, 202, 202);}
+            .titremobile:hover{text-shadow: 0px 0px 10px white;}
+            
+            /* Fin menu page4 */
+
+    #ladate
+        {
+        color: white;font-size: 20pt;position: absolute;top: 17px;right: 2%;z-index: 10000000;
+        font-family: Arial;margin: 0%;text-shadow: 0px 0px 2px gray;user-select: none;
+        }
+    #ladate:hover{font-weight: bolder;text-shadow: 0px 0px 9px rgba(255, 255, 255, 0.819)}
+
+    #divp41
+    {
+        width: 150px;height: 58px;position: relative;background-color: rgba(255, 255, 255, 0.383);
+        left: 150px;top: 100px;display: none;
+        position: absolute;top: 0px;right: 10%;z-index: 10000001;box-shadow: 0px 0px 10px gray;
+    }
+
+    #divp41:hover{box-shadow: 0px 0px 14px gray;}
+    #lheure
+        {
+        font-size: 22pt;font-weight: bold;color: rgb(255, 255, 255);position: relative;
+        text-align: center;top: 15px;margin: 0%;
+        }
+               
+        
+        #champdetexte{font-size: 16pt; position: absolute;top: 20%;z-index: 10000000000;}
+
+
+        /* Calculatrice */
+        
+        .calc0
+        {
+            width: 300px;height: 512px;position: absolute;top: 10%;left: 10%;background-color: rgba(200, 200, 200, 0.386);
+            border: 1px solid gray;border-radius: 20px;display: inline-block;
+            transition-duration: 0.5s;opacity: 0;transform: scale(0);box-shadow: 0px 0px 0px gray;
+            user-select: none;
+        }
+
+        .calc0.opaque {opacity: 1;transform: scale(1);box-shadow: 2px 2px 7px rgba(128, 128, 128, 0.408)}
+
+        .calc1
+        {
+            width: 300px;height: 512px;position: absolute;top: 10%;left: 10%;background-color: rgba(200, 200, 200, 0.386);
+            border: 1px solid gray;border-radius: 20px;display: inline-block;
+            transition-duration: 0.5s;opacity: 1;transform: scale(1);box-shadow: 2px 2px 7px rgba(128, 128, 128, 0.408);
+            user-select: none;
+        }
+
+        .calc1.opaque {opacity: 0;transform: scale(0);box-shadow: 0px 0px 0px gray}
+
+
+
+
+        #afficheur
+        {
+        width: 280px;height: 50px;background-color:black;position: relative;left: 10px;top: 10px;
+        border-top-left-radius: 10px;border-top-right-radius: 10px;user-select: none;
+        }
+        #calcAfficheur{font-size: 18pt;font-weight: bold;color: white;text-align: right;margin: 10px;
+                       position: relative; top: 12px; }
+        
+        #afficheurr
+        {
+        width: 280px;height: 65px;background-color:black;position: relative;left: 10px;top: 0px;
+        border-bottom-left-radius: 10px;border-bottom-right-radius: 10px ;user-select: none;
+        }
+        #calcAfficheurr{font-size: 12pt;font-weight: bold;color: white;text-align: left;margin: 10px;
+                        position: relative; top: 0px;font-family: sans-serif;}
+
+                        #boldr{font-size: 16pt;font-weight: bold;color: rgb(8, 156, 255);}
+                        .boldr2{font-size: 14pt;font-weight: normal;color: rgb(243, 8, 207);}
+
+
+        .boxboutonscalc{
+                        width: 280px;position: relative;left: 12px;top: 0px;
+                        font-size: 30pt;margin-top: 0px;margin-bottom: 3px;padding: 0;
+                       }
+
+        #calc7{width: 57px;text-align: center;border-radius: 6px;background-color: rgba(171, 171, 171, 0.162);
+               box-shadow: 1px 1px 3px rgba(128, 128, 128, 0.701); margin: 2px;margin-top: 10px;margin-bottom: 20px;
+              }
+        #calc7:hover {background-color:rgb(88, 193, 242) ;box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.727);}
+        
+        #calc8{width: 57px;text-align: center;border-radius: 6px;background-color: rgba(171, 171, 171, 0.162);
+            box-shadow: 1px 1px 3px rgba(128, 128, 128, 0.701); margin: 2px;margin-top: 10px;margin-bottom: 20px;
+           }
+        #calc8:hover  {background-color:rgb(88, 193, 242) ;box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.727);}
+        
+        #calc9{width: 57px;text-align: center;border-radius: 6px;background-color: rgba(171, 171, 171, 0.162);
+            box-shadow: 1px 1px 3px rgba(128, 128, 128, 0.701); margin: 2px;margin-top: 10px;margin-bottom: 20px;
+           }
+        #calc9:hover  {background-color:rgb(88, 193, 242) ;box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.727);}
+        
+        #calcsur{width: 57px;text-align: center;border-radius: 6px;background-color: rgba(171, 171, 171, 0.162);
+            box-shadow: 1px 1px 3px rgba(128, 128, 128, 0.701); margin: 2px;margin-top: 10px;margin-bottom: 20px;
+           }
+        #calcsur:hover  {background-color:rgb(88, 193, 242) ;box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.727);}
+     
+        #calc4{width: 57px;text-align: center;border-radius: 6px;background-color: rgba(171, 171, 171, 0.162);
+            box-shadow: 1px 1px 3px rgba(128, 128, 128, 0.701); margin: 2px;margin-top: 10px;margin-bottom: 20px;
+           }
+        #calc4:hover  {background-color:rgb(88, 193, 242) ;box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.727);}
+
+        #calc5{width: 57px;text-align: center;border-radius: 6px;background-color: rgba(171, 171, 171, 0.162);
+            box-shadow: 1px 1px 3px rgba(128, 128, 128, 0.701); margin: 2px;margin-top: 10px;margin-bottom: 20px;
+           }
+        #calc5:hover  {background-color:rgb(88, 193, 242) ;box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.727);}
+
+        #calc6{width: 57px;text-align: center;border-radius: 6px;background-color: rgba(171, 171, 171, 0.162);
+            box-shadow: 1px 1px 3px rgba(128, 128, 128, 0.701); margin: 2px;margin-top: 10px;margin-bottom: 20px;
+           }
+        #calc6:hover  {background-color:rgb(88, 193, 242) ;box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.727);}
+
+        #calcx{width: 57px;text-align: center;border-radius: 6px;background-color: rgba(171, 171, 171, 0.162);
+            box-shadow: 1px 1px 5px rgba(128, 128, 128, 0.701); margin: 2px;margin-top: 10px;margin-bottom: 20px;
+           }
+        #calcx:hover {background-color:rgb(88, 193, 242) ;box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.727);}
+
+        #calc1{width: 57px;text-align: center;border-radius: 6px;background-color: rgba(171, 171, 171, 0.162);
+            box-shadow:1px 1px 3px rgba(128, 128, 128, 0.701); margin: 2px;margin-top: 10px;margin-bottom: 20px;
+           }
+        #calc1:hover  {background-color:rgb(88, 193, 242) ;box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.727);}
+
+        #calc2{width: 57px;text-align: center;border-radius: 6px;background-color: rgba(171, 171, 171, 0.162);
+            box-shadow: 1px 1px 3px rgba(128, 128, 128, 0.701); margin: 2px;margin-top: 10px;margin-bottom: 20px;
+           }
+        #calc2:hover  {background-color:rgb(88, 193, 242) ;box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.727);}
+
+        #calc3{width: 57px;text-align: center;border-radius: 6px;background-color: rgba(171, 171, 171, 0.162);
+            box-shadow: 1px 1px 3px rgba(128, 128, 128, 0.701); margin: 2px;margin-top: 10px;margin-bottom: 20px;
+           }
+        #calc3:hover  {background-color:rgb(88, 193, 242) ;box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.727);}
+
+        #calcplus{width: 57px;text-align: center;border-radius: 6px;background-color: rgba(171, 171, 171, 0.162);
+            box-shadow: 1px 1px 3px rgba(128, 128, 128, 0.701); margin: 2px;display: inline-block;margin-top: 10px;margin-bottom: 20px;
+           }
+        #calcplus:hover  {background-color:rgb(88, 193, 242) ;box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.727);}
+        #calcC{width: 57px;text-align: center;border-radius: 6px;background-color: rgba(171, 171, 171, 0.162);
+            box-shadow: 1px 1px 3px rgba(128, 128, 128, 0.701); margin: 2px;margin-top: 10px;margin-bottom: 20px;
+           }
+        #calcC:hover  {background-color:rgb(88, 193, 242) ;box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.727);}
+        
+        #calc0{width: 57px;text-align: center;border-radius: 6px;background-color: rgba(171, 171, 171, 0.162);
+            box-shadow: 1px 1px 3px rgba(128, 128, 128, 0.701); margin: 2px;margin-top: 10px;margin-bottom: 20px;
+           }
+        #calc0:hover  {background-color:rgb(88, 193, 242) ;box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.727);}
+        
+        #calc10{width: 57px;text-align: center;border-radius: 6px;background-color: rgba(171, 171, 171, 0.162);
+            box-shadow: 1px 1px 3px rgba(128, 128, 128, 0.701); margin: 2px;display: inline-block;margin-top: 10px;margin-bottom: 20px;
+           }
+        #calc10:hover  {background-color:rgb(88, 193, 242) ;box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.727);}
+           
+        #calcmoins{width: 57px;height: 45px;text-align: center;border-radius: 6px;
+            background-color: rgba(171, 171, 171, 0.162);
+            box-shadow: 1px 1px 3px rgba(128, 128, 128, 0.701);
+            display: inline-block;margin-bottom: -9px;
+                    }
+        #calcmoins:hover  {background-color:rgb(88, 193, 242) ;box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.727);}
+        .spanmoins{font-size: 60pt;display: flex;position: absolute;top: 192px;left: 228px;}
+               
+        #calcretour{width: 57px;height: 57px;background-color:rgb(203, 203, 203);
+            position: relative;left: 20px;top: 0px;overflow: hidden;
+            border-radius: 10px;user-select: none;margin-top: 0px;transition: 0.2s;display: inline-block;
+            box-shadow: 1px 1px 3px rgba(128, 128, 128, 0.701);
+           }
+        #calcretour:hover  {background-color:rgb(0, 166, 255) ;box-shadow: 0px 0px 0px white;}
+        #flecheretour{font-size: 18pt;margin-left: 16.5px;}
+        #btegale{
+            width: 203px;height: 50px;background-color:orange;
+            position: relative;left: 10px;top: -17px;
+            border-radius: 10px;user-select: none;margin-top: 0px;transition: 0.2s;display: inline-block;
+            box-shadow: 1px 1px 3px rgba(128, 128, 128, 0.701)
+            }
+            #btegale:hover {background-color: orange;box-shadow: 0px 0px 0px white;}
+            
+            
+            .textegale {font-size: 30pt;font-weight: bold;color: rgb(0, 0, 0);text-align: center;margin: 0;padding: 0;}
+
+            
+       
+       
+       
+       /* Fin Calculatrice */
+
+
+
+    
+
+    
+
+
+
+
+
+    /* Footer code  */
+    
+    #footp4{width: 100%;height: 50px;background-color: rgb(234, 227, 227);margin: 0%;padding: 0%;
+            z-index: 100022100;position: absolute;bottom: 0px;
+            overflow: hidden;transition: 0.3s;
+           }    
+    #footp4:hover{box-shadow: 0px -3px 10px rgba(128, 128, 128, 0.739);}
+    
+    #liensp4 {display: inline;font-size: 16pt;font-family: Arial;user-select: none;}
+    
+  
+   
+    .lienss {width: 80%;overflow: hidden;position: relative;top: 10px;left: 1.8%;overflow: hidden;
+            user-select: none;
+            }
+    
+    .lienpage4 {display: inline;font-size: 20pt;margin-left: 20px;margin-top: 20px;overflow: hidden;
+                user-select: none;
+               }    
+
+    #lp41 {transition: 0.3s;}
+    #lp41:hover {text-shadow: 1px 1px 5px rgba(12, 93, 234, 0.866);} 
+    #lp42 {transition: 0.3s;}
+    #lp42:hover {text-shadow: 1px 1px 5px rgba(12, 93, 234, 0.866);}
+    #lp43 {transition: 0.3s;}
+    #lp43:hover {text-shadow: 1px 1px 5px rgba(12, 93, 234, 0.866);}
+    #lp44 {transition: 0.3s;}
+    #lp44:hover {text-shadow: 1px 1px 5px rgba(12, 93, 234, 0.866);}
+    #lp45 {transition: 0.3s;}
+    #lp45:hover {text-shadow: 1px 1px 5px rgba(12, 93, 234, 0.866);}
+    .lienss a {text-decoration: none; color: black;}
+    #lp47{transition: 0.3s;}
+    #lp47:hover {text-shadow: 1px 1px 5px rgba(12, 93, 234, 0.866);}
+    #lp48{transition: 0.3s;}
+    #lp48:hover {text-shadow: 1px 1px 5px rgba(12, 93, 234, 0.866);}  
+    #lp49{transition: 0.3s;}
+    #lp49:hover {text-shadow: 1px 1px 5px rgba(255, 0, 76, 0.866);}      
+
+
+    #desilbox {display: inline-block;width: 20%;height: 30px;padding: 0%;margin: 0%;
+              position: absolute;  top: 10px;left: 78%;
+              }
+    #loki {
+            font-size: 16pt;position: relative;top: 2px;left: 0px;margin-top: 0px;text-align: right;
+            font-family: Arial;font-weight: bold;display: none;
+          }
+
+   /*Fin footer*/       
+    
+   /* Devis */
+
+.devis0
+   {
+       width: 90%;height: 560px;position: absolute;top: 10%;left: 5%;background-color: rgba(255, 255, 255, 0.748);
+       border: 1px solid gray;border-radius: 20px;
+       transition-duration: 0.5s;opacity: 0;transform: scale(0);box-shadow: 0px 0px 0px gray;
+       user-select: none;
+       display: flex;
+   }
+
+.devis0.opaque {opacity: 1;transform: scale(1);box-shadow: 2px 2px 7px rgba(128, 128, 128, 0.408)}
+
+.devis1
+   {
+       width: 90%;height: 80%;position: absolute;top: 10%;left: 5%;background-color: rgba(255, 255, 255, 0.923);
+       border: 1px solid gray;border-radius: 20px;
+       transition-duration: 0.5s;opacity: 1;transform: scale(1);box-shadow: 2px 2px 7px rgba(128, 128, 128, 0.408);
+       display: flex;justify-content: center; flex-wrap: wrap;
+       user-select: none;
+   }
+
+.devis1.opaque {opacity: 0;transform: scale(0);box-shadow: 0px 0px 0px gray}
+
+
+   .devisbox1{width: 19%;height: 100%;background-color: rgba(255, 255, 255, 0.051);
+              box-shadow: 5px 0px 5px gray;
+             }
+       .titredevis{font-size: 18pt;font-weight: bolder;color: rgba(5, 38, 55, 0.491);font-family:Tahoma;
+                   width: 100%;position: relative;top: 20px;font-style: italic;
+                  }
+     
+            /*       Boutons     Devis   */
+
+       #blocnotes{font-size: 14pt;font-weight: bold;color: rgba(0, 136, 255, 0.535);font-family: Arial;
+                 position: relative; height: 40px;padding-left: 15px;padding-top: 22px;
+                 margin-top: 40px;margin-bottom: 0px;
+                 transition: 0.1s;border-left: 6px solid rgba(0, 136, 255, 0.535);
+                 }
+       #blocnotes:hover{background-color: rgba(0, 136, 255, 0.135);
+                        box-shadow: -3px 0px 5px rgba(0, 0, 0, 0.292);
+                       }
+       
+       
+       #livres {font-size: 14pt;font-weight: bold;color: gray;font-family: Arial;padding-left: 15px;padding-top: 22px;
+                 position: relative; height: 40px;transition: 0.1s;border-left: 6px solid rgba(255, 255, 255, 0);
+                 margin-top: 0px;margin-bottom: 0px;}
+       #livres:hover {background-color: rgba(0, 136, 255, 0.135);
+                      box-shadow: -3px 0px 5px rgba(0, 0, 0, 0.292);
+                     }  
+       
+       
+       #flyers{font-size: 14pt;font-weight: bold;color: gray;font-family: Arial;padding-left: 15px;padding-top: 22px;
+                position: relative; height: 40px;transition: 0.1s;border-left: 6px solid rgba(255, 255, 255, 0);
+                margin-top: 0px;;margin-bottom: 0px;}
+       #flyers:hover{background-color: rgba(0, 136, 255, 0.135);
+                     box-shadow: -3px 0px 5px rgba(0, 0, 0, 0.292);
+                     } 
+        
+
+
+       #emballage{font-size: 14pt;font-weight: bold;color: gray;font-family: Arial;padding-left: 15px;padding-top: 22px;
+        position: relative; height: 40px;transition: 0.1s;border-left: 6px solid rgba(255, 255, 255, 0);
+        margin-top: 0px;;margin-bottom: 0px;}
+       #emballage:hover{background-color: rgba(0, 136, 255, 0.135);
+                        box-shadow: -3px 0px 5px rgba(0, 0, 0, 0.292);
+                        }  
+        
+
+
+       #portedoc{font-size: 14pt;font-weight: bold;color: gray;font-family: Arial;padding-left: 15px;padding-top: 22px;
+        position: relative; height: 40px;transition: 0.1s;border-left: 6px solid rgba(255, 255, 255, 0);
+        margin-top: 0px;;margin-bottom: 0px;}
+       #portedoc:hover{background-color: rgba(0, 136, 255, 0.135);
+                       box-shadow: -3px 0px 5px rgba(0, 0, 0, 0.292);
+                      } 
+        
+
+       #cartevisite{font-size: 14pt;font-weight: bold;color: gray;font-family: Arial;padding-left: 15px;padding-top: 22px;
+                      position: relative; height: 40px;transition: 0.1s;border-left: 6px solid rgba(255, 255, 255, 0);
+                     margin-top: 0px;;margin-bottom: 0px;}
+       #cartevisite:hover{background-color: rgba(0, 136, 255, 0.135);
+                          box-shadow: -3px 0px 5px rgba(0, 0, 0, 0.292);
+                         }             
+    /*Fin boutons */
+   
+   
+   .devisbox2{width: 79%;height: 100%;
+              }
+      
+
+        .grandblocnotes0{width: 99%;height: 99%;
+                       display: flex;justify-content: center;flex-wrap: wrap;align-items:center;
+                       transition-duration: 0.5s;position: relative;top: 10px;
+                       opacity: 0;transform: scale(0.7);font-family: Arial, Helvetica, sans-serif;
+                      }
+        .grandblocnotes0.opaque {opacity: 1;transform: scale(1);}
+
+        .grandblocnotes1 {width: 99%;height: 99%;
+            display: flex;justify-content: center;flex-wrap: wrap;align-items:center;
+            transition-duration: 0.5s;position: relative;top: 10px;
+            opacity: 1;transform: scale(1);font-family: Arial, Helvetica, sans-serif;
+           }
+        .grandblocnotes1.opaque {opacity: 0;transform: scale(0.7);}
+        #grandblocnotes {z-index: 1000000001;}
+
+                #boxblocnotes{width: 99%;height: 44%;
+                              display: flex;margin-left: 40px;padding: 0%;margin-top: -15px;
+                              
+                             }
+                    .boxformatblocnotes{width: 47%;height: 100%;display: inline-block;
+                                        padding: 0px;margin: 0px; position: relative;top: 0px;
+                                        border-right: 1px solid gray;
+                                        
+                                       }
+                    .boximpressionpapierbn{width: 55%;height: 100%;display: inline-block;
+                                       padding: 0px;margin: 0px;  position: relative;top: 0px;
+
+                                          }
+                            
+                            #formatblocnotestitre{font-size: 12pt;font-weight: bold;margin-left: 14px;
+                                                  margin-top: -10px;}
+                            #A5,#A4 {width: 20px;height: 20px;margin-left: 14px;margin-top: 5px;}
+                            #labelradio1,#labelradio2 {width: 80px;font-size: 12pt;height: 25px;margin-top: 4px;
+                                                        position: relative;top: -3px;}
+                           
+                            #typeblocnotetitre{font-size: 12pt;font-weight: bold;margin-left: 14px;
+                                               position: relative; display: inline-block;top: -15px;}
+                            #spirale,#spiralehaut,#dos {width: 20px;height: 20px;margin-left: 14px;
+                                                    position: relative;top: -12px;}
+                            #labelspirale,#labelspiralehaut,#labeldos {width: 100px;font-size: 12pt;height: 25px;margin-top: 4px;
+                                                            position: relative;top: -15px;}
+                            
+                            
+                            #labelqnb1,#labelqnb2 {width: 100%;font-size: 12pt;font-weight: bold;margin-left: 14px;
+                                                   position: relative;top: -15px;}
+                            #qnb1, #qnb2 {width: 250px;margin-left: 14px;
+                                position: relative;top: -12px;background-color: rgba(76, 174, 255, 0.052);border-color: rgba(128, 128, 128, 0.154);}
+                            
+                            
+                             #impressionint, #impressioncouv {width: 280px;font-size: 14pt;margin-left: 14px;} 
+
+                                          
+
+                            
+                            
+                             
+                             #finitioncouvtitre{margin-left: 14px;font-size: 12pt;font-weight: bold;}
+
+                             #sans {margin-left: 14px;width: 20px;height: 20px;margin-top: 5px;}
+                             #pelliculagerecto,#pelliculagerv{width: 20px;height: 20px;margin-top: 5px;}
+                             #contrecolle{margin-left: 14px;width: 20px;height: 20px;margin-top: 5px;}
+
+                             #labelr,#labelrv {width: 120px;font-size: 12pt;height: 25px;margin-top: 4px;}
+                             #labelsans {width: 120px;font-size: 12pt;height: 25px;margin-top: 4px;}
+                             #labelcontre {width: 150px;font-size: 12pt;height: 25px;margin-top: 4px;}
+              
+                                     
+              
+             #boxresultatblocnotes{width: 99%;height: 49.5%;  
+                                   display: block;margin-left: 40px;user-select: none;
+                                   position: relative; top: -40px;}
+                            #rtbn,#rtbn2 {margin-left: 14px;margin-top: -2px;margin-bottom: -2px;}
+                            .rtbnb{font-size: 10pt;font-weight: bold;color: rgba(26, 74, 216, 0.83);}
+                            .rtbnb2{font-size: 10pt;font-weight: bold;color: black;margin-top: 0px;margin-bottom: 0px;}
+                            
+                            .papierint{padding: 0;}
+                            .papiercouv{padding: 0;}
+                            
+                            .petittitredevis{font-size:14pt;font-weight: bold;margin-left: 14px;margin-top: 0px;margin-bottom: 5px;color: rgba(0, 136, 255, 0.535);}
+                            .petittitredevis2{width: 300px;font-size:12pt;font-weight: bold;margin-left: 14px;margin-top: 0px;margin-bottom: 5px;color: black;}
+                            
+                            #feuillea0,#feuillea02{margin-left: 14px;margin-top: 5px;margin-bottom: -2px;font-size: 10pt;}
+                            #feuillea3{margin-left: 14px;margin-top: -2px;margin-bottom: -2px;font-size: 10pt;}
+                            #feuillea32{margin-left: 14px;margin-top: 0px;margin-bottom: -2px;font-size: 10pt;}
+                            #feuillea4{margin-left: 14px;margin-top: -2px;font-size: 10pt;}
+                            #qnb1{font-size: 13pt;}
+                            #qnb2{font-size: 13pt;}
+
+                    #boxresultatblocnotes{width: 99%;height: 44%;
+                                display: flex;margin-left: 40px;padding: 0%; margin-top: -15px;                              
+                               }
+        
+                     .boxfeuillesbn{width: 47%;height: 90%;display: inline-block;
+                                padding: 0px;margin: 0px; position: relative;top: 0px;user-select: none;
+                                margin-top: 0px;
+                                border-right: 1px solid gray;
+                                
+                               }
+                     .boxprixbn{width: 55%;height: 90%;display: inline-block;
+                               padding: 0px;margin: 0px;  position: relative;top: 0px;
+                               margin-top: 0px;
+                               }       
+                            #coutunitaireP,#couttotalP,#coutimpintunitaire,#coutimpint,#coutimpcouvunitaire,
+                            #coutimpcouv,#pellcouvunitaire,#pellcouv,#reliureunitaire,#reliure
+                            {font-size: 10pt; margin-left: 14px;padding: 0px;height: 20px;margin-top: 2px;margin-bottom: 0px;}
+                            #couttotalP,#coutimpint,#coutimpcouv,#pellcouv{border-bottom: 1px solid rgba(128, 128, 128, 0.507);}
+                            .rtbnblue{color: rgb(22, 113, 177);}         
+
+                    #resultatfinalbn{width: 99%;height: 15%;
+                                margin-left: 40px;padding: 0%; margin-top: -75px;  
+                                background-color: rgba(255, 255, 255, 0.739);box-shadow: 0px 0px 4px rgba(128, 128, 128, 0.38);
+                                border-radius: 20px;    
+                                 display: flex; justify-content: center;
+                                    }
+
+                            .f1, .f2, .f3 {margin: 1%;border-radius: 20px;
+                                           display: flex;justify-items: center;
+                                            }
+
+                        
+                            .f1{background-color: rgba(8, 49, 171, 0.132)}
+                            .f2{background-color: rgba(81, 91, 122, 0.232)}
+                            .f3{background-color: rgba(15, 96, 236, 0.408)}
+                          
+                            .contenairephotosblocnotes{
+                                
+                                margin: 1%;border-radius: 20px;
+                                display: flex;justify-items: baseline;
+                                width: 28%;height:85%;
+                                                      }
+                          
+                                #f4{width: 33%; height: 100%;
+                                background-size: contain; background-repeat: no-repeat;                           
+                                }
+                                .formatphotobn0{background-image:url(./photos/format1.png);}
+                                .formatphotobn1{background-image:url(./photos/format2.png);}
+                              
+                              
+                              
+                              
+                                #f5{width: 33%; height: 100%;
+                                background-size: contain; background-repeat: no-repeat;
+                                    }    
+                                    .impressionphotobn0{background-image:url(./photos/couv1.png);}    
+                                    .impressionphotobn1{background-image:url(./photos/couv2.png);}    
+                                    .impressionphotobn2{background-image:url(./photos/couv3.png);}    
+                                    .impressionphotobn3{background-image:url(./photos/couv4.png);} 
+
+                                    .impressionphotobn4{background-image:url(./photos/couv5.png);}    
+                                    .impressionphotobn5{background-image:url(./photos/couv6.png);}    
+                                    .impressionphotobn6{background-image:url(./photos/couv7.png);}    
+                                    .impressionphotobn7{background-image:url(./photos/couv8.png);} 
+                                    
+                                    .impressionphotobn8{background-image:url(./photos/couv9.png);}    
+                                    .impressionphotobn9{background-image:url(./photos/couv10.png);}    
+                                    .impressionphotobn10{background-image:url(./photos/couv11.png);}    
+                                    .impressionphotobn11{background-image:url(./photos/couv12.png);} 
+
+                                #f6{width: 33%; height: 100%;
+                                background-size: contain; background-repeat: no-repeat;}    
+                                    .impressionintphtobn0{background-image:url(./photos/int1.png);}
+                                    .impressionintphtobn1{background-image:url(./photos/int2.png);}
+                                    .impressionintphtobn2{background-image:url(./photos/int3.png);}
+                                    .impressionintphtobn3{background-image:url(./photos/int4.png);}
+                                    .impressionintphtobn4{background-image:url(./photos/int5.png);}
+                                    .impressionintphtobn5{background-image:url(./photos/int6.png);}
+                                    .impressionintphtobn6{background-image:url(./photos/int7.png);}
+                                    .impressionintphtobn7{background-image:url(./photos/int8.png);}
+
+                                    .impressionintphtobn8{background-image:url(./photos/int9.png);}
+                                    .impressionintphtobn9{background-image:url(./photos/int10.png);}
+                                    .impressionintphtobn10{background-image:url(./photos/int11.png);}
+                                    .impressionintphtobn11{background-image:url(./photos/int12.png);}
+                                    .impressionintphtobn12{background-image:url(./photos/int13.png);}
+                                    .impressionintphtobn13{background-image:url(./photos/int14.png);}
+                                    .impressionintphtobn14{background-image:url(./photos/int15.png);}
+                                    .impressionintphtobn15{background-image:url(./photos/int16.png);}
+
+                                    .impressionintphtobn16{background-image:url(./photos/int17.png);}
+                                    .impressionintphtobn17{background-image:url(./photos/int18.png);}
+                                    .impressionintphtobn18{background-image:url(./photos/int19.png);}
+                                    .impressionintphtobn19{background-image:url(./photos/int20.png);}
+                                    .impressionintphtobn20{background-image:url(./photos/int21.png);}
+                                    .impressionintphtobn21{background-image:url(./photos/int22.png);}
+                                    .impressionintphtobn22{background-image:url(./photos/int23.png);}
+                                    .impressionintphtobn23{background-image:url(./photos/int24.png);}
+
+
+
+
+
+
+
+
+                            #qbnF,#prixunitaire,#prixtotal
+                            {font-size: 12pt; font-family: arial;text-align: center;
+                             margin-top: 5px;margin-left: 15px;margin-right: 15px;flex-direction: column;  
+                             color: rgb(68, 68, 68);                       
+                            }
+                    
+                            .rtbnb3{font-weight: bold; font-size: 18pt;}
+       
+       
+       
+       
+     /* fin devis Bloc Notes */
+
+       
+       
+        .grandlivres0 {width:79%;height: 99%;background-color:rgba(0, 0, 0, 0.249);
+                       display: flex;justify-content: center;flex-wrap: wrap;align-items:center;
+                       position: absolute; top: 10px;
+                       transition-duration: 0.5s;
+                       opacity: 0;transform: scale(0.7);
+                      }
+                      
+        .grandlivres0.opaque{opacity: 1;transform: scale(1);}
+        
+        .grandlivres1 {width:79%;height: 99%;background-color:rgba(0, 0, 0, 0.249);
+            display: flex;justify-content: center;flex-wrap: wrap;align-items:center;
+            position: absolute; top: 10px;
+            transition-duration: 0.5s;
+            opacity: 1;transform: scale(1);
+                     }
+           
+        .grandlivres1.opaque{opacity: 0;transform: scale(0.7);}
+        
+
+            #boxlivres{
+                       width: 99%;height: 49.5%;background-color: rgba(10, 91, 91, 0.103);
+                       background-color: rgba(250, 235, 215, 0.515);
+                       }
+       
+            #boxresultatlivres{
+                          width: 99%;height: 49.5%;background-color: rgba(82, 154, 75, 0.084); 
+                          background-color: rgba(250, 235, 215, 0.515);
+                         }
+        
+     /*/////////////////////////////////////////////////////////////////////////////////////////////////////////////*/   
+        
+        .grandflyers0 {width:79%;height: 99%;background-color:rgba(210, 11, 11, 0.249);
+                       display: flex;justify-content: center;flex-wrap: wrap;align-items:center;
+                       position: absolute; top: 10px;
+                       transition-duration: 0.5s;
+                       opacity: 0;transform: scale(0.7);
+                      }
+                      
+        .grandflyers0.opaque{opacity: 1;transform: scale(1);}
+        
+        .grandflyers1 {width:79%;height: 99%;background-color:rgba(210, 11, 11, 0.249);
+            display: flex;justify-content: center;flex-wrap: wrap;align-items:center;
+            position: absolute; top: 10px;
+            transition-duration: 0.5s;
+            opacity: 1;transform: scale(1);
+                     }
+           
+        .grandflyers1.opaque{opacity: 0;transform: scale(0.7);}
+        
+
+            #boxflyers{
+                       width: 99%;height: 49.5%;background-color: rgba(74, 207, 34, 0.103);
+                       background-color: rgba(250, 235, 215, 0.515);
+                       }
+       
+            #boxresultatflyers{
+                          width: 99%;height: 49.5%;background-color: rgba(74, 207, 34, 0.103); 
+                          background-color: rgba(250, 235, 215, 0.515);
+                         }                 
+
+    /*/////////////////////////////////////////////////////////////////////////////////////////////////////////////*/   
+        
+        .grandemballage0 {width:79%;height: 99%;background-color:rgba(210, 11, 11, 0.249);
+            display: flex;justify-content: center;flex-wrap: wrap;align-items:center;
+            position: absolute; top: 10px;
+            transition-duration: 0.5s;
+            opacity: 0;transform: scale(0.7);
+           }
+           
+        .grandemballage0.opaque{opacity: 1;transform: scale(1);}
+
+        .grandemballage1 {width:79%;height: 99%;background-color:rgba(210, 11, 11, 0.249);
+        display: flex;justify-content: center;flex-wrap: wrap;align-items:center;
+        position: absolute; top: 10px;
+        transition-duration: 0.5s;
+        opacity: 1;transform: scale(1);
+                      }
+
+        .grandemballage1.opaque{opacity: 0;transform: scale(0.7);}
+
+
+            #boxemballage{
+                width: 99%;height: 49.5%;background-color: rgba(74, 207, 34, 0.103);
+                background-color: rgba(250, 235, 215, 0.515);
+                      }
+
+            #boxresultatemballage{
+               width: 99%;height: 49.5%;background-color: rgba(74, 207, 34, 0.103); 
+               background-color: rgba(250, 235, 215, 0.515);
+                             }                 
+
+    /*/////////////////////////////////////////////////////////////////////////////////////////////////////////////*/   
+        
+    .grandportedoc0 {width:79%;height: 99%;background-color:rgba(210, 11, 11, 0.249);
+        display: flex;justify-content: center;flex-wrap: wrap;align-items:center;
+        position: absolute; top: 10px;
+        transition-duration: 0.5s;
+        opacity: 0;transform: scale(0.7);
+       }
+       
+    .grandportedoc0.opaque{opacity: 1;transform: scale(1);}
+
+    .grandportedoc1 {width:79%;height: 99%;background-color:rgba(210, 11, 11, 0.249);
+    display: flex;justify-content: center;flex-wrap: wrap;align-items:center;
+    position: absolute; top: 10px;
+    transition-duration: 0.5s;
+    opacity: 1;transform: scale(1);
+                  }
+
+    .grandportedoc1.opaque{opacity: 0;transform: scale(0.7);}
+
+
+        #boxportedoc{
+            width: 99%;height: 49.5%;background-color: rgba(74, 207, 34, 0.103);
+            background-color: rgba(250, 235, 215, 0.515);
+                  }
+
+        #boxresultatportedoc{
+           width: 99%;height: 49.5%;background-color: rgba(74, 207, 34, 0.103); 
+           background-color: rgba(250, 235, 215, 0.515);
+                         }         
+
+    /*/////////////////////////////////////////////////////////////////////////////////////////////////////////////*/   
+        
+    .grandcartevisite0 {width:79%;height: 99%;background-color:rgba(210, 11, 11, 0.249);
+        display: flex;justify-content: center;flex-wrap: wrap;align-items:center;
+        position: absolute; top: 10px;
+        transition-duration: 0.5s;
+        opacity: 0;transform: scale(0.7);
+       }
+       
+    .grandcartevisite0.opaque{opacity: 1;transform: scale(1);}
+
+    .grandcartevisite1 {width:79%;height: 99%;background-color:rgba(210, 11, 11, 0.249);
+    display: flex;justify-content: center;flex-wrap: wrap;align-items:center;
+    position: absolute; top: 10px;
+    transition-duration: 0.5s;
+    opacity: 1;transform: scale(1);
+                  }
+
+    .grandcartevisite1.opaque{opacity: 0;transform: scale(0.7);}
+
+
+        #boxcartevisite{
+            width: 99%;height: 49.5%;background-color: rgba(74, 207, 34, 0.103);
+            background-color: rgba(250, 235, 215, 0.515);
+                  }
+
+        #boxresultatcartevisite{
+           width: 99%;height: 49.5%;background-color: rgba(74, 207, 34, 0.103); 
+           background-color: rgba(250, 235, 215, 0.515);
+                         }    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+          /**Fin de la Page 4**/
+
+
+
+
+
+
+/**Site Responsive***************************************************************************************************/
+/********************************************************************************************************************/
+
+
+
+
+
+    @media screen and (min-width : 721px) and (max-width : 1080px)
+    {
+        /** Page sommaire responsive **/
+
+        .page1boxphoto1{display: block;width: 85%;;margin-left: 7%;margin-right: auto;margin-top: 1%;}
+        .page1boxphoto2{display: block;width: 85%;;margin-left: 7%;margin-right: auto;margin-top: 2%;}
+        .page1boxphoto3{display: block;width: 85%;;margin-left: 7%;margin-right: auto;margin-top: 2%;}
+     
+        /**Page 1 photos paris Responsive **/
+        
+        #logodesjardins {display: none;}
+
+        .logoglobal{position: absolute;left: 29%;top: 1760px;width: 40%;}
+        
+                
+        .box1{width: 97%;height: 1600px;border: 1px solid rgba(0, 0, 0, 0.122);margin: 2% auto;} /** overflow: hidden;**/
+        #pho1 {width: 95%; height: 500px; background-image: url(../site2/photos/photo1.jpg);background-size: cover ;
+              display: block;margin-top: 0.3%;margin-left: 2.4%;margin-bottom: 3%;}
+        #pho2 {width: 95%; height: 500px; background-image: url(../site2/photos/photo2.jpg);background-size: cover ;
+              display: block;margin-top: 3%;margin-left: 2.4%;margin-bottom: 3%;}
+        #pho3 {width: 95%; height: 500px; background-image: url(../site2/photos/photo3.jpg);background-size: cover ;
+               display: block;margin-top: 3%;margin-left: 2.4%;margin-bottom: 3%;}
+        #pho1:hover, #pho2:hover, #pho3:hover {box-shadow: 2px 2px 8px black;}
+        nav {display: none;}
+        .tt{display: none;}
+        
+        /**Menu mobile**/
+        .sousmenu{position: fixed;width: 100%;height: 58px;z-index: 10000;
+            background-color: rgb(50, 50, 50);top: 0px;left: 0px;}
+        .titremobile{color: white;margin: 0;padding: 0; font-weight: bolder;font-family: Arial;
+                     font-size: 16pt ;position: relative;top: 20px;left: 20px;
+                    }
+        .titreacceuil{background-color: rgba(0, 0, 0, 0.162);font-size: 16pt;margin-top: 58px;text-align: center;
+                        padding: 5px;
+                        }       
+                        
+        .titrephotos {background-color: rgba(0, 0, 0, 0.162);font-size: 16pt;margin-top: 58px;text-align: center;
+                      padding: 5px;
+                     }  
+
+        .menumob{display: inline-block;background-color:rgb(50, 50, 50);width: 150px;height: 58px;
+             position: fixed;z-index: 9999;overflow: hidden;box-shadow: 0px 0px 0px gray;
+             transition: height 0.1s, width 0.1s ,box-shadow 0.1s;
+            }
+        .menumob:hover{height: 380px;width: 300px;box-shadow: 1px 1px 12px black;}          
+        #amm1, #amm2, #amm3, #amm4, #amm5 {
+            display:block;text-decoration: none;color: white;font-size: 16pt;
+            height: 15%;font-family: Geneva, Tahoma, sans-serif;position: relative;
+            top: 0px;left: 20px;
+        }
+
+        #amm1:hover, #amm2:hover, #amm3:hover, #amm4:hover, #amm5:hover {text-shadow: 0px 0px 10px white;}
+        .titremobile:hover{text-shadow: 0px 0px 10px white;}
+        /**fin menu Mobile**/
+
+
+        /**Fin Page 1 photos paris Responsive **/
+
+        /**Page 3 Desert Responsive **/
+
+        #desert{width: 100%;height: 1500px;object-fit:cover;margin-top: -315px;margin-left: 0px;}
+        .boxdesert{display: inline-block;
+            background-color: rgba(255, 255, 255, 0.347);
+            position: absolute;top: 720px;left:10%;border-radius: 20px;
+            width: 80%;
+           }    
+        .titre1desert{color: rgba(32, 32, 32, 0.845);font-size: 16pt;font-style: oblique;margin-left: 2%;
+            margin-top: 20px;margin-bottom: 0px;padding: 0%;}
+        .paradesert{color: rgba(0, 0, 0, 0.801);text-align: justify;padding: 4%;font-size: 14pt;padding-top: 0px;}
+        .foot{top: 1200px;}
+
+        
+        /**Fin Page 3 Desert Responsive **/
+    }
+
+
+    @media screen and (max-width : 720px)
+    {
+        a {text-decoration: none;}
+        #logodesjardins {display: none;}
+        
+        .logoglobal{position: absolute;left: 19%;top: 1120px;width: 60%;}
+                
+        .box1{width: 97%;height: 1000px;border: 1px solid rgba(0, 0, 0, 0.122);margin: 2% auto;} /** overflow: hidden;**/
+        #pho1 {width: 95%; height: 300px; background-image: url(../site2/photos/photo1.jpg);object-fit: cover ;
+               display: block;margin-top: 0.3%;margin-left: 2.4%;margin-bottom: 3%;}
+        #pho2 {width: 95%; height: 300px; background-image: url(../site2/photos/photo2.jpg);background-size: cover ;
+              display: block;margin-top: 3%;margin-left: 2.4%;margin-bottom: 3%;}
+        #pho3 {width: 95%; height: 300px; background-image: url(../site2/photos/photo3.jpg);background-size: cover ;
+               display: block;margin-top: 3%;margin-left: 2.4%;margin-bottom: 3%;}
+        #pho1:hover, #pho2:hover, #pho3:hover {box-shadow: 2px 2px 8px black;}
+        nav {display: none;}
+
+        /**Menu mobile**/
+        .sousmenu{position: fixed;width: 100%;height: 58px;z-index: 10000;
+            background-color: rgb(50, 50, 50);top: 0px;left: 0px;}
+        .titremobile{color: white;margin: 0;padding: 0; font-weight: bolder;font-family: Arial;
+                     font-size: 16pt ;position: relative;top: 20px;left: 20px;
+                    }
+        .titreacceuil{background-color: rgba(0, 0, 0, 0.162);font-size: 16pt;margin-top: 58px;text-align: center;
+                        padding: 5px;
+                        }       
+                        
+        .titrephotos {background-color: rgba(0, 0, 0, 0.162);font-size: 16pt;margin-top: 58px;text-align: center;
+                      padding: 5px;
+                     }  
+
+        .menumob{display: inline-block;background-color:rgb(50, 50, 50);width: 150px;height: 58px;
+             position: fixed;z-index: 9999;overflow: hidden;box-shadow: 0px 0px 0px gray;
+             transition: height 0.1s, width 0.1s ,box-shadow 0.1s;
+            }
+        .menumob:hover{height: 380px;width: 300px;box-shadow: 1px 1px 12px black;}          
+        #amm1, #amm2, #amm3, #amm4, #amm5 {
+            display:block;text-decoration: none;color: white;font-size: 16pt;
+            height: 15%;font-family: Geneva, Tahoma, sans-serif;position: relative;
+            top: 0px;left: 20px;
+        }
+
+        #amm1:hover, #amm2:hover, #amm3:hover, #amm4:hover, #amm5:hover {text-shadow: 0px 0px 10px white;}
+        .titremobile:hover{text-shadow: 0px 0px 10px white;}
+
+         /**Page 3 Desert Responsive **/
+
+         #desert{width: 100%;height: 1000px;object-fit:cover;margin-top: -180px;margin-left: 0px;}
+         .boxdesert{display: inline-block;
+             background-color: rgba(255, 255, 255, 0.347);
+             position: absolute;top: 460px;left:4.4%;border-radius: 20px;
+             width: 90%;
+            }    
+         .titre1desert{color: rgba(32, 32, 32, 0.845);font-size: 12pt;font-style: oblique;margin-left: 2%;
+             margin-top: 6px;margin-bottom: 0px;padding: 0%;}
+         .paradesert{color: rgba(0, 0, 0, 0.801);text-align: justify;padding: 2%;font-size: 10pt;padding-top: 0px;}
+         .foot{top:800px;}
+         .boxcontact{width: 90%;height: 100px;position: relative;left: 4.7%;border-bottom: 1.2px solid gray;}
+         .suiveznous{text-align: center;left: 0px;}
+         .reseausociaux{width: 70%;position: relative;left: 15%;}
+         
+         /**Fin Page 3 Desert Responsive **/
+
+         /**Page 4 Responsive **/
+
+         #liensp4 {display: none;}
+         #loki{font-size: 12pt;}
+
+
+    }
+        /**Fin Menu mobile**/    
+    
+
+ 
